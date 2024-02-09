@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    color: black;
+    font-size: 10px;
+}
+#main{
+    width: 100%;
+    height: 80vh;
+}
+.header{
+    background: url(https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover;
+}
+.nav{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav .logo img{
+    margin: 1rem 2rem;
+    height: 100%;
+    border-radius: 50%;
+}
+.nav-heading{
+    align-items: center;
+    display: flex;
+}
+.nav-heading ul{
+    display: flex;
+    margin: 0 5rem;
+    gap: 2rem;
+    
+}
+.nav-heading ul li{
+    list-style: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+    transition: 0.2s;
+    color: white;
+}
+.nav-heading ul li:hover{
+    color: red;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.heading{
+    height: calc(80vh - 5rem);
+    text-align: center;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.heading h1{
+    font-size: 4rem;
+    padding: 20px 0;
+}
+.heading p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+.main-box{
+    padding: 20px 0;
+    width: 80%;
+    margin: auto;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.heading-page2{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 2.2rem;
+
+}
+.box{
+    border-radius: 10px;
+    width: 30%;
+    height: 100%;
+    transition: 0.2s;
+    text-align: center;
+    color: white;
+    
+}
+.box:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: -10px -10px 20px 10px rgba(58, 58, 58, 0.463),10px 10px 20px 10px rgba(25, 25, 25, 0.418);
+}
+.box h1{
+    font-size: 2.2rem;
+    padding-top: 2rem;
+}
+.box p{
+    font-size: 1.2rem;
+    padding-top: 2rem;
+}
+.img-1{
+    background: url(https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center top/cover;
+}
+.img-2{
+    background: url(https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover;
+}
+.img-3{
+    background: url(https://images.unsplash.com/photo-1550345332-09e3ac987658?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover;
+}
+.more-about{
+    padding: 2rem;
+    line-height: 1.7rem;
+    height: 55vh;
+    border-top: 3px solid black;
+}
+.more-about h1{
+    font-size: 2.3rem;
+    margin: 2rem;
+}
+.more-about p{
+    font-size: 1.3rem;
+    margin: 1rem 2rem;
+}
+footer h3{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+}

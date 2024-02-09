@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+        rel="stylesheet" />
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .hero-title {
+            font-family: Roboto;
+            font-size: 5rem;
+            margin: 0;
+            color: white;
+        }
+
+        header {
+            background-image:url('https://th.bing.com/th/id/OSK.HEROBxbO7xPkY5sqXDuxUDrqwCAkMP71Y1sC5om9w9M2NV4?rs=1&pid=ImgDetMain');
+            height: 70vh;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            font-family: Roboto;
+
+            display: flex;
+            flex-direction: column;
+
+            justify-content: center;
+            padding: 0 200px;
+        }
+
+        .hero-subtitle {
+            font-size: 20px;
+        }
+
+        .hero-title,
+        .hero-subtitle {
+            text-shadow: 3px 3px 5px #0000006a;
+        }
+
+        .feature-card {
+            border: 2px solid red;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .section-features,
+        .section-title {
+            text-align: center;
+            padding: 50px 300px;
+        }
+
+        .card-container {
+            display: flex;
+            gap: 40px;
+            color: #1d478f;
+        }
+
+        .feature-card {
+            border-radius: 30px;
+            transition: 0.2s;
+
+        }
+
+        .feature-card:hover {
+            transform: scale(1.1);
+            color: white;
+            background-color: rgba(255, 0, 0, 0.607);
+            cursor: pointer;
+            border: 2px solid rgba(255, 0, 0, 0.722);
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            /* transform: scale(1.05); */
+            /* box-shadow: -4px -4px 10px 2px rgba(255, 0, 0, 0.559); */
+        }
+
+        .section-contact {
+            padding: 50px 300px;
+        }
+
+        .contact-from {
+            /* border: 2px solid blue; */
+            padding: 50px;
+            box-sizing: border-box;
+        }
+
+        .contact-from input,
+        #text-area {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 30px;
+            /* border: 2px solid red; */
+        }
+
+        #text-area {
+            resize: none;
+
+        }
+
+        .btn {
+            padding: 10px 10px;
+            /* padding-inline: 40px ; */
+            font-size: 10px;
+            border-radius: 10px;
+            border: none;
+            background-color: #234C92;
+            color: white;
+            transition: 0.2s;
+        }
+        .btn:hover{
+            background-color: red;
+            color: black;
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+
+        footer {
+            display:grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            background-color: #aaa;
+            padding: 20px 100px;
+        }
+        .links h4{
+            font-size: 2rem;
+        }
+        .heading h1{
+            font-size: 2rem;
+        }
+        .links p i{
+            font-size: 2rem;
+        }
+        .links p a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+            padding: 2rem;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+
+    <header>
+        <h1 class="hero-title" style="text-align: center;">Welcome to my website</h1>
+
+        <p class="hero-subtitle">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti veritatis accusantium obcaecati ab error
+            ipsum illo enim nam officiis delectus natus nobis nisi, aperiam nihil molestias. Commodi obcaecati molestiae
+            accusantium!
+        </p>
+
+    </header>
+
+
+    <main>
+
+        <section class="section-features">
+            <h2 class="section-title">Our Features</h2>
+
+            <div class="card-container">
+
+                <div class="feature-card">
+                    <i class="fa-5x fa-solid fa-truck-fast"></i>
+                    <h3 class="card-title">Fast Delivery</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni delectus vero non voluptas
+                        repellendus voluptatum labore? Incidunt impedit quas optio.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fa-5x fa-solid fa-truck-fast"></i>
+                    <h3 class="card-title">Fast Delivery</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni delectus vero non voluptas
+                        repellendus voluptatum labore? Incidunt impedit quas optio.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fa-5x fa-solid fa-truck-fast"></i>
+                    <h3 class="card-title">Fast Delivery</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni delectus vero non voluptas
+                        repellendus voluptatum labore? Incidunt impedit quas optio.</p>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <h2 class="section-title">
+                Our Work
+            </h2>
+            <video src="video-1.mp4" autoplay loop muted width="100%"></video>
+        </section>
+        <section class="section-contact">
+            <h2 class="Section-title">Contact Us</h2>
+            <form class="contact-from" action="#">
+                <label for="name"> Name</label>
+                <input type="text" name="name" id="name">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+                <label for="number">Contact-number</label>
+                <input name="number" id="number">
+
+                <label for="text-area">Message</label>
+                <textarea name="text-area" id="text-area" cols="30" rows="10"></textarea>
+                <button class="btn">Submit</button>
+
+            </form>
+        </section>
+        <footer>
+            <div class="heading">
+                <h1>&copy; All Rights reserved. Website</h1>
+            </div>
+            <div class="links">
+                <h4>Find us at:</h4>
+                <p>
+                     <i class="fa-brands fa-facebook"></i>
+                     <a href="#" class="social-links">facebook</a>
+                </p>
+                <p>
+                    <i class="fa-brands fa-instagram"></i>
+                     <a href="#" class="social-links">instagram</a>
+                </p>
+                <p>
+                    <i class="fa-brands fa-twitter"></i>
+                     <a href="#" class="social-links">twitter</a>
+                </p>
+                <p>
+                    <i class="fa-brands fa-linkedin"></i>
+                     <a href="#" class="social-links">Lnkedin</a>
+                </p>
+            </div>
+            <div class="links">
+                <h4>Find us at:</h4>
+                <p>
+                     <i class="fa-brands fa-facebook"></i>
+                     <a href="#" class="social-links">facebook</a>
+                </p>
+                <p>
+                    <i class="fa-brands fa-instagram"></i>
+                     <a href="#" class="social-links">instagram</a>
+                </p>
+                <p>
+                    <i class="fa-brands fa-twitter"></i>
+                     <a href="#" class="social-links">twitter</a>
+                </p>
+                <p>
+                    <i class="fa-brands fa-linkedin"></i>
+                     <a href="#" class="social-links">Lnkedin</a>
+                </p>
+            </div>
+        </footer>
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
