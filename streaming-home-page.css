@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.body {
+    background-color: rgba(0, 0, 0, 0.414);
+    height: 100%;
+    width: 100%;
+}
+
+.main-container {
+    height: 90%;
+    background-color: pink;
+}
+
+.navbar {
+    border: 2px solid red;
+}
+
+.main-img {
+    height: 100%;
+   
+}
+
+.main-img img {
+    border: 2px solid red;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    
+    
+}
+.nav-cont a {
+    display: flex;
+}
+
+.nav-cont a i {
+    font-size: 25px;
+    padding: 9px;
+}
+
+.nav-cont a span {
+    color: blue;
+}
+
+.logo-text {
+    font-weight: 700;
+}
