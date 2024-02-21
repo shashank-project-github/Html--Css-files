@@ -91,7 +91,7 @@ body {
     max-height: 400px;
 }
 
-.box-1 {}
+/* .box-1 {} */
 
 .box-1 h1 {
     color: white;
@@ -130,9 +130,9 @@ body {
     font-size: 18px;
 }
 
-.box-4 {}
+/* .box-4 {}
 
-.box-4 button {}
+.box-4 button {} */
 
 
 @media (max-width:610px) {
@@ -262,7 +262,7 @@ body {
 }
 @media (min-width:989px) and (max-width:1420px){
     /* .movies-box{
-        /* background-color: rgba(0, 0, 0, 0.829); */
+        background-color: rgba(0, 0, 0, 0.829);
     } */
     .movies-min-box{
         height: auto;
