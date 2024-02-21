@@ -262,7 +262,7 @@ body {
 }
 @media (min-width:989px) and (max-width:1420px){
     .movies-box{
-        background-color: rgba(0, 0, 0, 0.829);
+        /* background-color: rgba(0, 0, 0, 0.829); */
     }
     .movies-min-box{
         height: auto;
