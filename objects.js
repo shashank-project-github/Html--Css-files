@@ -31,19 +31,25 @@ const phonelist = [
         brand: 'Iqoo',
         model: 'neo 7 pro',
         price: 32999,
-        color: "mat-red-orange"
+        color: ["mat-red-orange",'green','yellow']
     }, 
     {
-        brand: 'Redmi',
+        brand: 'Realme',
         model: '7 pro',
         price: 20999,
-        color: "red-orange"
+        color: ["red-orange","yellow",'black']
     }, 
     {
         brand: 'Redmi',
         model: '7',
         price: 15999,
-        color: "mat-orange"
+        color: ["mat-orange"]
+    },
+    {
+        brand: 'OnePlus',
+        model: '10 Pro',
+        price: 39999,
+        color: ["mat-green"]
     }
 ];
 
@@ -52,3 +58,9 @@ console.log(phonelist.length);
 console.log(phonelist[2].price);
 
 console.log(phonelist[2].color.length);
+
+
+console.log(phonelist[1].color[2]);
+
+phonelist[3].color.push('gold');
+console.log(phonelist[3].color);
