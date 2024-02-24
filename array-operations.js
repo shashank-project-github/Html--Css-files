@@ -33,3 +33,4 @@ for (let a = 0; a < num.length; a+=2) {
     sum=sum+num[a];
 }
 console.log(sum);
+
